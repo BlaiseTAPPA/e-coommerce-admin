@@ -17,6 +17,7 @@ export default function DeleteProductPage() {
         });
     }, [id]);
 
+    
     function goBack() {
         router.push('/products');
     }
